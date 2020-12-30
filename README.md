@@ -3,6 +3,7 @@
  
  # Assignments
  ## Assignment 1
+ ### Question 1
  Write the BNF grammar, in the syntax of our lecture, of an assignment statement such that:
 - LHS is variable whose name is one of ```{A,B,C,D}```.
 - RHS is an arithmetic expression which allows any combination of variables, parentheses, and the binary operators ```{*,<,^,%,+}``` subject to the following precedence and associativity rules:
@@ -11,6 +12,9 @@
 - `<` and `^` operators have equal precedence which is lower than `*`.
 - `%` and `+` operators have equal precedence which is the lowest.
 - The grammar should accept a statement like: `A=B%A+(B^C<A%C)*D`
+### Question 2
+Write the BNF grammar for the above problem in the syntax accepted by the following tool:
+[https://bnfc.digitalgrammars.com/](BNFC).
  ## Assignment 2
  Get all possible subsets from given array with simulating the recursion (do not use the recursion)
  ## Assignment 3
