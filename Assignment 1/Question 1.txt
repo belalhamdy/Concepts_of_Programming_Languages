@@ -1,0 +1,6 @@
+<assign> -> <id> = <exp>
+<exp> -> <exp> % <term> | <exp> + <term> | <term>
+<term> -> <term> < <fct> | <term> ^ <fct> | <fct>
+<fct> -> <fct> * <nexp> | <nexp>
+<nexp> -> ( <exp> ) | <id>
+<id> -> A | B | C | D

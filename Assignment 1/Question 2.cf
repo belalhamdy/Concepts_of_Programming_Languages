@@ -1,0 +1,22 @@
+Prog. Program ::= "begin" StmList "end";
+
+Assign1. Assign ::= Id "=" Exp;
+
+Exp1. Exp ::= Exp "%" Term;
+Exp2. Exp ::= Exp "+" Term;
+Exp3. Exp ::= Term;
+
+Term1. Term ::= Term "<" Fct;
+Term2. Term ::= Term "^" Fct;
+Term3. Term ::= Fct;
+
+Fct1. Fct ::= Fct "*" NExp;
+Fct2. Fct ::= NExp;
+
+NExp1. NExp ::= "(" Exp ")";
+NExp2. NExp ::= Id;
+
+Id1. Id ::= "A";
+Id2. Id ::= "B";
+Id3. Id ::= "C";
+Id4. Id ::= "D";
