@@ -14,7 +14,7 @@
 - The grammar should accept a statement like: `A=B%A+(B^C<A%C)*D`
 ### Question 2
 Write the BNF grammar for the above problem in the syntax accepted by the following tool:
-[https://bnfc.digitalgrammars.com/](BNFC).
+[BNFC](https://bnfc.digitalgrammars.com/).
  ## Assignment 2
  Get all possible subsets from given array with simulating the recursion (do not use the recursion)
  ## Assignment 3
